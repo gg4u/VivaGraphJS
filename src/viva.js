@@ -21,6 +21,7 @@ var Viva = {
 Viva.Graph = {
   version: require('./version.js'),
   graph: require('ngraph.graph'),
+  path: require('ngraph.path'),
 
   serializer: function() {
     return {
